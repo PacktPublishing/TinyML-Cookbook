@@ -28,4 +28,5 @@ void setup() {
 }
 
 void loop() {
+  delay(4000);
 }
