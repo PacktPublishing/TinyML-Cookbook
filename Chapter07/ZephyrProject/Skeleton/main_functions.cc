@@ -47,10 +47,10 @@ void setup(void) {
         while(1);
     }
 
-	/* This pulls in all the operation implementations we need.
-	 * NOLINTNEXTLINE(runtime-global-variables)
-	 */
-	static tflite::AllOpsResolver resolver;
+    /* This pulls in all the operation implementations we need.
+     * NOLINTNEXTLINE(runtime-global-variables)
+     */
+    static tflite::AllOpsResolver resolver;
 
     static tflite::MicroInterpreter static_interpreter(
         model, resolver, tensor_arena, tensor_arena_size, error_reporter);
