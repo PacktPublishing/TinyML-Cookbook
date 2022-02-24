@@ -1,4 +1,4 @@
-<h1><b> TinyML Cookbook<br> Combine artificial intelligence and ultra-low-power embedded devices to make the world smarter </b></h1>
+<h1><b> TinyML Cookbook</b></h1>
 
 <img style="float: right;" src="https://static.packt-cdn.com/products/9781801814973/cover/smaller">
 
