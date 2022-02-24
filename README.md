@@ -8,16 +8,12 @@ This is the code repository for **[TinyML Cookbook](https://www.packtpub.com/pro
 \
 Author: **[Gian Marco Iodice](https://www.linkedin.com/in/gian-marco-iodice-3183a9a1/)**\
 Publisher: **[Packt](https://www.packtpub.com/)**
-<br>
-<br>
 
 <h1> About the book </h1>
 
 This book is about TinyML, a fast-growing field at the unique intersection of machine learning and embedded systems to make AI ubiquitous with extremely low-powered devices such as microcontrollers.
 
 TinyML is an exciting field full of opportunities. With a small budget, we can give life to objects that interact with the world around us smartly and transform the way we live for the better. However, this field can be hard to approach if we come from an ML background with a little familiarity with embedded systems such as microcontrollers. Therefore, this book wants to dispel these barriers and make TinyML also accessible to developers with no embedded programming experience through practical examples. Each chapter will be a self-contained project to learn how to use some of the technologies at the heart of TinyML, interface with electronic components like sensors, and deploy ML models on memory-constrained devices.
-<br>
-<br>
 
 <h1> Who is this book for </h1>
 
@@ -25,8 +21,6 @@ This book is for ML developers/engineers interested in developing machine learni
 \
 \
 Basic familiarity with C/C++, Python programming, and a command-line interface (CLI) is required. However, no prior knowledge of microcontrollers is necessary.
-<br>
-<br>
 
 <h1> Technical requirements </h1>
 
@@ -42,30 +36,6 @@ The only software prerequisites for your computer are:
 Arduino Nano 33 BLE Sense and Raspberry Pi Pico programs will be developed directly in the web browser with the **[Arduino Web Editor](https://create.arduino.cc)**. However, you may also consider using the local **[Arduino IDE](https://www.arduino.cc/en/software)** following the instructions provided at this **[link](https://github.com/PacktPublishing/TinyML-Cookbook/blob/main/Docs/setup_local_arduino_ide.md)**.
 
 The following table summarizes the hardware devices and software tools covered in each chapter:
-<style>
-.heatMap {
-    width: 100%;
-    vertical-align: text-top;
-    text-align: left;
-    color: black;
-}
-.heatMap th {
-    background: grey;
-    word-wrap: break-word;
-    text-align: center;
-    color: white;
-}
-.heatMap tr:nth-child(1) { background: #FFFFFF; }
-.heatMap tr:nth-child(2) { background: #F0F0F0; }
-.heatMap tr:nth-child(3) { background: #FFFFFF; }
-.heatMap tr:nth-child(4) { background: #F0F0F0; }
-.heatMap tr:nth-child(5) { background: #FFFFFF; }
-.heatMap tr:nth-child(6) { background: #F0F0F0; }
-.heatMap tr:nth-child(7) { background: #FFFFFF; }
-.heatMap tr:nth-child(8) { background: #F0F0F0; }
-</style>
-
-<div class="heatMap">
 
 | Chapter | Devices | SW tools | Electronic components |
 | -- | -- | -- | -- |
@@ -79,8 +49,6 @@ The following table summarizes the hardware devices and software tools covered i
 | **8** | - Virtual Arm Ethos-U55 microNPU | - Arm Corstone-300 FVP<br>- Python<br>- TVM | None |
 
 </div>
-<br>
-<br>
 
 <h1> About the author </h1>
 
