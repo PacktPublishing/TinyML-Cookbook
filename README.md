@@ -1,7 +1,6 @@
 <h1><b> TinyML Cookbook</b></h1>
 
-<img style="float: right;" src="https://static.packt-cdn.com/products/9781801814973/cover/smaller">
-
+<a href="https://www.packtpub.com/product/tinyml-cookbook/9781801814973"><img src="https://static.packt-cdn.com/products/9781801814973/cover/smaller" alt="TinyML Cookbook" height="256px" align="right"></a>
 
 This is the code repository for **[TinyML Cookbook](https://www.packtpub.com/product/tinyml-cookbook/9781801814973)**, published by Packt.
 \
