@@ -59,7 +59,7 @@ typedef struct {
 
 static volatile inference_t inference;
 static bool debug_nn = false;
-static bool debug_raw_audio = true;
+static bool debug_audio_raw = true;
 static bool test_leds = false; // Set this to true to test the LEDs
 
 static volatile int  ix_buffer       = 0;
@@ -291,7 +291,7 @@ static bool microphone_inference_record(void) {
   timer.detach();
   led_builtin = OFF;
 
-  if(debug_raw_audio) {
+  if(debug_audio_raw) {
     print_raw_audio();
   }
 
