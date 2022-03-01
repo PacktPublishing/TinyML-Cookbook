@@ -1,7 +1,7 @@
 // Note: Set to 1 if you want to check whether the model can forecast the snow
 #define DEBUG_SNOW 0
 
-#include "snow_forecast_model.h"
+#include "model.h"
 
 #include <TensorFlowLite.h>
 #include <tensorflow/lite/micro/all_ops_resolver.h>
