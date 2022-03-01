@@ -24,7 +24,7 @@ void fall_ISR() {
 void setup() {
   button.mode(PullUp);
   button.rise(&rise_ISR);
-  button.fall(&fall_ISR1);
+  button.fall(&fall_ISR);
 }
 
 void loop() {
