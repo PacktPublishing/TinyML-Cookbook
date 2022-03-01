@@ -48,6 +48,7 @@ static inference_t inference;
 static bool record_ready = false;
 static signed short *sampleBuffer;
 static bool debug_nn = false; // Set this to true to see e.g. features generated from the raw signal
+static bool test_leds = false; // Set this to true to test the LEDs
 
 //------- Voice controlling LEDs with Edge Impulse --- start
 #define ON          0
@@ -101,6 +102,25 @@ void setup()
   rgb[0] = OFF;
   rgb[1] = OFF;
   rgb[2] = OFF;
+
+  if(test_leds)
+  {
+    delay(2000);
+    Serial.print("Testing LEDs\n");
+    Serial.print("RED\n");
+    rgb[0] = ON;
+    delay(3000);
+    rgb[0] = OFF;
+    Serial.print("GREEN\n");
+    rgb[1] = ON;
+    delay(3000);
+    rgb[1] = OFF;
+    Serial.print("BLUE\n");
+    rgb[2] = ON;
+    delay(3000);
+    rgb[2] = OFF;
+  }
+
   rgb[current_color] = ON;
 
   // summary of inferencing settings (from model_metadata.h)

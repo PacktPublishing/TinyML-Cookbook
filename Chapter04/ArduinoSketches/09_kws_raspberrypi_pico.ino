@@ -60,6 +60,7 @@ typedef struct {
 static volatile inference_t inference;
 static bool debug_nn = false;
 static bool debug_raw_audio = true;
+static bool test_leds = false; // Set this to true to test the LEDs
 
 static volatile int  ix_buffer       = 0;
 static volatile bool is_buffer_ready = false;
@@ -131,6 +132,25 @@ void setup()
   rgb[0] = OFF;
   rgb[1] = OFF;
   rgb[2] = OFF;
+
+  if(test_leds)
+  {
+    delay(2000);
+    Serial.print("Testing LEDs\n");
+    Serial.print("RED\n");
+    rgb[0] = ON;
+    delay(3000);
+    rgb[0] = OFF;
+    Serial.print("GREEN\n");
+    rgb[1] = ON;
+    delay(3000);
+    rgb[1] = OFF;
+    Serial.print("BLUE\n");
+    rgb[2] = ON;
+    delay(3000);
+    rgb[2] = OFF;
+  }
+
   rgb[current_color] = ON;
   button.mode(PullUp);
 
