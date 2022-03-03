@@ -12,7 +12,6 @@
 
 <img src="imgs/arduino_ide/ide.png" alt="drawing"/>
 
-<br>
 <h1> Add support for the Arduino Nano 33 BLE Sense </h1>
 
 **1 -** In the Arduino IDE, go to **Tools** -> **Board** -> **Boards Manager**:
@@ -38,7 +37,6 @@ sudo ~/.arduino15/packages/arduino/hardware/mbed_nano/2.7.2/post_install.sh
 
 You can now build the sketches for the Arduino Nano 33 BLE Sense.
 
-<br>
 
 <h1> Add support for the Raspberry Pi Pico </h1>
 
@@ -61,7 +59,6 @@ sudo ~/.arduino15/packages/arduino/hardware/mbed_rp2040/2.7.2/post_install.sh
 
 You can now build the sketches for the Raspberry Pi Pico.
 
-<br>
 
 <h1> Install the SW libraries required for the book </h1>
 
@@ -75,7 +72,6 @@ In the **Manage Libraries** window, install the following libraries:
 - Arduino_HTS221 (chapter 3)
 - Arduino_OV767X (chapter 5)
 
-<br>
 
 <h1> How to ... </h1>
 
@@ -95,7 +91,6 @@ In the **Manage Libraries** window, install the following libraries:
 
 <img src="imgs/arduino_ide/upload.png" alt="drawing"/>
 
-<br>
 
 <h2> Import an Arduino library </h2>
 
@@ -103,7 +98,6 @@ Go to **Sketch** -> **Include Library** -> **Add .ZIP Library**:
 
 <img src="imgs/arduino_ide/import_library.png" alt="drawing"/>
 
-<br>
 
 <h2> Use the serial monitor </h2>
 
