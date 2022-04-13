@@ -67,15 +67,6 @@ static volatile bool is_buffer_ready = false;
 
 static size_t current_color = 0;
 
-static size_t map_encoded_labels(size_t ix_label) {
-  static size_t map_array[EI_CLASSIFIER_LABEL_COUNT] = { 2, 1, 3, 0, 5, 4, 6 };
-  if(ix_label >= EI_CLASSIFIER_LABEL_COUNT) {
-    Serial.print("Out of bound range\n");
-    while(1);
-  }
-  return map_array[ix_label];
-}
-
 static bool is_color(size_t ix) {
   if(ix < NUM_COLORS) {
     return true;
@@ -204,13 +195,10 @@ void loop()
       }
     }
 
-    // Map the encoded label to our representation (red, green, blue, one, two, three)
-    const size_t ix_max0 = map_encoded_labels(ix_max);
-
     if(pb_max > PROBABILITY_THR) {
-      if(is_color(ix_max0)) {
+      if(is_color(ix_max)) {
         // Convert the index to LED pin number
-        const size_t new_color = ix_max0;
+        const size_t new_color = ix_max;
 
         if(new_color != current_color) {
           rgb[current_color] = OFF; // Turn off current_color
@@ -219,8 +207,8 @@ void loop()
         }
       }
 
-      if(is_number(ix_max0)) {
-        const size_t num_blinks = ix_max0 - NUM_COLORS + 1;
+      if(is_number(ix_max)) {
+        const size_t num_blinks = ix_max - NUM_COLORS + 1;
         for(size_t i = 0; i < num_blinks; ++i) {
           rgb[current_color] = OFF;
           delay(1000);
