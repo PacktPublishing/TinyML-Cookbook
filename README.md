@@ -49,6 +49,21 @@ The following table summarizes the hardware devices and software tools covered i
 
 </div>
 
+<h1> Citation </h1>
+
+To cite TinyML Cookbook in publications use:
+
+```
+@book{iodice2022tinymlcookbook,
+  title={TinyML Cookbook: Combine artificial intelligence and ultra-low-power embedded devices to make the world smarter},
+  author={Gian Marco Iodice},
+  year={2022},
+  publisher={Packt},
+  isbn = {9781801814973},
+  url = {https://www.packtpub.com/product/tinyml-cookbook/9781801814973}
+}
+```
+
 <h1> About the author </h1>
 
 **Gian Marco Iodice** is team and tech lead in the Machine Learning Group at Arm, who co-created the **[Arm Compute Library](https://github.com/ARM-software/ComputeLibrary)** in 2017. Arm Compute Library is currently the most performant library for ML on Arm, and it’s deployed on billions of devices worldwide – from servers to smartphones.
