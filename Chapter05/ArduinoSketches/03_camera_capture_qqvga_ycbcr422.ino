@@ -43,6 +43,8 @@ inline void ycbcr422_rgb888(int32_t Y, int32_t Cb, int32_t Cr, uint8_t* out) {
 void setup() {
   Serial.begin(115600);
   while (!Serial);
+	
+  button.mode(PullUp);
 
   if (!Camera.begin(QQVGA, YUV422, 1)) {
     Serial.println("Failed to initialize camera!");
