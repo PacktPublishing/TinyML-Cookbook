@@ -71,3 +71,7 @@ To cite TinyML Cookbook in publications use:
 Gian Marco holds an MSc degree, with honors, in electronic engineering from the University of Pisa (Italy) and has several years of experience developing ML and computer vision algorithms on edge devices. Now, he's leading the ML performance optimization on Arm Mali GPUs.
 
 In 2020, Gian Marco co-founded the TinyML UK meetup group to encourage knowledge sharing, educate, and inspire the next generation of ML developers on tiny and power-efficient devices.
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781801814973">https://packt.link/free-ebook/9781801814973 </a> </p>
