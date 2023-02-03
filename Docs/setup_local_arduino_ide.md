@@ -27,9 +27,11 @@
 **4 -** On Ubuntu, open a new **Terminal** and add a udev rule with the `post_install.sh` script:
 
 ```console
-chmod +x ~/.arduino15/packages/arduino/hardware/mbed_nano/2.7.2/post_install.sh
-sudo ~/.arduino15/packages/arduino/hardware/mbed_nano/2.7.2/post_install.sh
+chmod +x ~/.arduino15/packages/arduino/hardware/mbed_nano/{version}/post_install.sh
+sudo ~/.arduino15/packages/arduino/hardware/mbed_nano/{version}/post_install.sh
 ```
+
+**Attention**: In this particular example, `{version}` is 2.7.2, as reported in the field near the install button in the screenshot above.
 
 **5 -** Open Arduino IDE and connect the Arduino 33 BLE Sense board to the laptop/PC through a micro-USB cable. Go to **Tools** -> **Port** and check whether **Arduino Nano 33 BLE** is displayed:
 
@@ -49,9 +51,10 @@ You can now build the sketches for the Arduino Nano 33 BLE Sense.
 **3 -** On Ubuntu, open a new **Terminal** and add a udev rule with the `post_install.sh` script:
 
 ```console
-chmod +x ~/.arduino15/packages/arduino/hardware/mbed_rp2040/2.7.2/post_install.sh
-sudo ~/.arduino15/packages/arduino/hardware/mbed_rp2040/2.7.2/post_install.sh
+chmod +x ~/.arduino15/packages/arduino/hardware/mbed_rp2040/{version}/post_install.sh
+sudo ~/.arduino15/packages/arduino/hardware/mbed_rp2040/{version}/post_install.sh
 ```
+**Attention**: In this particular example, `{version}` is 2.7.2, as reported in the field near the install button in the screenshot above.
 
 **4 -** Open Arduino IDE and connect the Raspberry Pi Pico board to the laptop/PC through a micro-USB cable. Go to **Tools** -> **Port** and check whether **Raspberry Pi Pico** is displayed:
 
