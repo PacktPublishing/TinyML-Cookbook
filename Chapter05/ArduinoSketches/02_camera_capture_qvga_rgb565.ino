@@ -22,6 +22,8 @@ inline void rgb565_rgb888(uint8_t* in, uint8_t* out) {
 void setup() {
   Serial.begin(115600);
   while (!Serial);
+  
+  button.mode(PullUp);
 
   if (!Camera.begin(QVGA, RGB565, 1)) {
     Serial.println("Failed to initialize camera!");
